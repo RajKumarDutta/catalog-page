@@ -11,7 +11,7 @@ import {
   clearSelectedProduct
 } from "@/features/products/product.slice";
 import Aurora from "@/components/Aurora";
-import { ArrowLeft, Package, Tag, IndianRupee, Layers } from "lucide-react"; // Optional: npm install lucide-react
+import { ArrowLeft, Package, Tag, Layers } from "lucide-react"; // Optional: npm install lucide-react
 
 const ProductDetailsPage = () => {
   const { productId } = useParams<{ productId: string }>();
